@@ -1,0 +1,17 @@
+numero=int(input("ingrece u numero "))
+if numero<=99999:
+    proceso=numero%100
+    proceso2=proceso%10
+    proceso3=proceso-proceso2
+    proceso4=proceso3/100
+    proceso5=proceso4*10
+    
+    proceso6=numero%1000
+    proceso7=proceso6%10
+    proceso8=proceso6-proceso7
+    proceso9=proceso8/100
+    proceso10=proceso9*10
+
+    print(proceso5, proceso)
+else:
+    print("El numero no es de 5 digitos")
