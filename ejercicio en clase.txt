@@ -1,0 +1,17 @@
+ejercicio 1
+palabra='python es un lenguaje poderoso'
+salida=palabra.split()
+print(len(salida))
+print(salida[0])
+print(salida[4])
+
+ejercicio 2
+cadena=' hola    mundo    en python'
+union=cadena.split()
+salida=' '.join(union)
+print(salida)
+
+ejercicio3
+entrada='usuario@gmail.com'
+dominio=entrada.split('@')
+print(dominio[1])
