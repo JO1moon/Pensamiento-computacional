@@ -1,0 +1,21 @@
+agua=int(input('Ingrece la cantidad de agua consumida en metros cubicos'))
+habitantes=int(input('Ingrece la cantidad de habitantes'))
+par=habitantes%2
+if agua >= 15 and agua <=30 and habitantes > 3:
+    print('La tarifa es Q4 por metro cubico')
+elif agua >= 15 and agua <=30 and habitantes == 3:
+    print('La tarifa es de Q4.5 por metro cubico')
+elif agua > 30 and habitantes > 5:
+    print('La tarifa es de Q3.5 por metro cubico')
+elif agua > 30 and par==0:
+    print('La tarifa es de Q4 por metro cubico')
+else:
+    print('La tarifa es de Q5')
+
+auto=int(input('Ingrece el año de su auto'))
+placa=int(input('ingrece el ultimo digito de su placa'))
+if auto > 2001:
+    if placa%2==0 :
+        print('No cicula los Lunes')
+else:
+    print('No circula los Viernes')
