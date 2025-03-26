@@ -1,0 +1,29 @@
+#Ejercicio 1
+#for i in range(1,11):
+#    if i%2==0:
+#        print(f'numeros pares  {i}')
+#    else:
+#        print(f'numeros impares  {i}')
+
+#Ejercicio 2
+#x=0
+#while x<10:
+#    x+=1
+#    if x%2!=0:
+#        print(f'numeros impares{x}')
+
+#Escenario 1
+#palabra_secreta='chupacabra'
+#palabra=input('Ingece la parabra secrta')
+#while palabra!=palabra_secreta:
+#   palabra=input('Ingece la parabra secrta')
+#print('Has dejado el bucle con exito')
+
+#Escenario 2
+usuario=input('Ingrece su nombre de usuario').upper()
+vocales='aeiou'
+a=''
+for i in usuario:
+    if i in vocales:
+        a+=i
+    print('vocales',a)
