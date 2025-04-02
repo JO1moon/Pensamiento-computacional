@@ -1,0 +1,22 @@
+        # Ejercicio 1
+tamaño=int(input('Ingrece el tamaño array'))
+numero_base=int(input('Ingrece un numero base'))
+lista=[]
+for i in range(0,tamaño):
+    lista.append(i*numero_base)
+print(lista)
+
+
+
+
+        #Ejercicio 2
+list_one=[]
+list_two=[]
+i=1
+while i<4:
+    name=input('Ingrece su nombre')
+    a=len(name)
+    list_one.append(name)
+    list_two.append(a)
+    i+=1
+print(list_one,list_two)
